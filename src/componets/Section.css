@@ -40,9 +40,6 @@ h4{
 .btn1{
     padding: 5px;
     border-radius: 5px;
-    margin-left: -650px;
-    margin-right: 20px;
-    position: absolute;
     background: transparent;
     background-color: #081b29;
     border: 2px solid #00abf0;
@@ -51,13 +48,13 @@ h4{
     font-weight: 500;
     cursor: pointer;
     margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 50px;
 }
 
 .btn2{
-    position: absolute;
     padding: 5px;
     border-radius: 5px;
-    margin-left: -525px;
     background: transparent;
     background-color: #081b29;
     border: 2px solid #00abf0;
@@ -72,30 +69,27 @@ h4{
     background-color: #00abf0;
     color: #081b29;
 }
-a img{
+
+.social {
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.social a img{
     width: 75px;
     height: 75px;
-    position: absolute;
-    margin-top: 150px;
-    background: transparent;
+    background: none;
     border: 2px solid #00abf0;
     border-radius: 50%;
     background-color: #00abf0;
 }
 
-a img:hover{
+.social a img:hover{
     background-color: #ededed;
     border: 2px solid #ededed;
     
 }
-.im1{
-    margin-left: -650px;
-    
-}
 
-.im2{
-    margin-left: -550px;
-}
-.im3{
-    margin-left: -450px;
+.im1, .im2{
+    margin-right: 50px;
 }

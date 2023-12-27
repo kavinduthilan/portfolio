@@ -9,6 +9,7 @@
 .heading .navbar{
     list-style-type: none;
     position: fixed;
+    cursor: pointer;
 }
 
 .heading .navbar li{
@@ -16,12 +17,3 @@
     padding-left: 50px;
     
 }
-/*
-.heading .navbar li a{
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    color: #ededed;
-}
-
-*/
