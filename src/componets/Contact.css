@@ -1,0 +1,52 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 50px;
+    margin: 50px 50px;
+    
+
+}
+.container-1{
+    border: 2px solid black;
+    padding: 5%;
+}
+
+.container-1 .line{
+    text-align: left;
+    
+    /*border: 2px solid white;*/
+    
+}
+
+
+.container-1 img{
+    width: 6%;
+    height: 6%;
+    background-color: #00abf0;
+    border-radius: 50%;
+    border: 2px solid #00abf0;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+
+.container-2{
+    border: 2px solid black;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container-2 input[type="text"], input[type="email"]{
+    margin-bottom: 10px;
+}
+
+.container-2 input[type="text"], input[type="email"],textarea{
+    background-color: #ededed;
+}
+.container-2 input[type="submit"]{
+    background: transparent;
+    color: #00abf0;
+    border: 1px solid #00abf0;
+    padding: 5px;
+
+}

@@ -1,0 +1,22 @@
+.skills .container{
+    margin: 50px 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    row-gap: 20px;
+    justify-content: space-between;
+}
+
+.skills .container img{
+    width: 75%;
+    height: 75%;
+}
+
+
+.skills .container img:hover{
+    transform:
+      translate3d(0px, -16px, 0px)
+      rotateX(51deg)
+      rotateZ(43deg);
+    
+    
+}
