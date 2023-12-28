@@ -1,10 +1,13 @@
 .works{
-    margin: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .works .container{
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-top: 100px;
+    column-gap: auto;
+    margin: 100px auto auto auto;
+    border: 2px solid white;
 }
 
 
