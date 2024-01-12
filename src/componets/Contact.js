@@ -1,10 +1,24 @@
-import React from "react";
+import React, { useRef} from "react";
 import "./Contact.css";
 import add from "./images/gps.png";
 import mail from "./images/email.png";
 import tele from "./images/phone.png";
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_9bqaxxw', 'template_4uw2i8e', form.current, 'B3jiIxXZLjXrRsilc')
+      .then((result) => {
+          alert("Message Sent, We will get back to you shortly", result.text);
+          //console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <div className="contact" id="contact">
       <h1>Contact Me</h1>
@@ -26,12 +40,12 @@ export default function Contact() {
           </div>
         </div>
         <div className="container-2">
-          <form>
-            <input type="text" placeholder="Name" />
+          <form ref={form} onSubmit={sendEmail}>
+            <input type="text" placeholder="Your Name" name="name" />
             <br />
-            <input type="email" placeholder="E-mail" />
+            <input type="email" placeholder="Your E-mail" name="email" />
             <br />
-            <textarea cols={52} rows={10} placeholder="message"></textarea>
+            <textarea cols={52} rows={10} placeholder="Message" name="message"></textarea>
             <br />
             <input type="submit" value="Send Message" />
           </form>
