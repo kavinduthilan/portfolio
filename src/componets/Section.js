@@ -24,13 +24,13 @@ export default function Section() {
       <button className="btn2">Download CV</button>
 
       <div className="social">
-        <a href="https://www.google.com">
+        <a href="https://www.google.com" rel="noreferrer" target="_blank">
           <img className="im1" src={fb} alt="fb" />
         </a>
-        <a href="https://www.google.com">
+        <a href="https://www.google.com" rel="noreferrer" target="_blank">
           <img className="im2" src={ig} alt="ig" />
         </a>
-        <a href="https://www.google.com">
+        <a href="https://www.google.com" rel="noreferrer" target="_blank">
           <img className="im3" src={ln} alt="ln" />
         </a>
       </div>

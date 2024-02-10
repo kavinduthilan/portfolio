@@ -15,5 +15,7 @@
 .heading .navbar li{
     display: inline;
     padding-left: 50px;
+    color: whitesmoke;
+    font-weight: bold;
     
 }
