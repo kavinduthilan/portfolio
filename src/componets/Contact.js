@@ -50,8 +50,13 @@ export default function Contact() {
               fullWidth
               margin="normal"
               required
-              
+              InputLabelProps={{
+                style: {
+                  color: 'white'
+                      }
+              }}
             />
+            
             <TextField
               type="email"
               label="Your E-mail"
@@ -60,7 +65,11 @@ export default function Contact() {
               fullWidth
               margin="normal"
               required
-              
+              InputLabelProps={{
+                style: {
+                  color: 'white'
+                      }
+              }}
             />
             <TextField
               multiline
@@ -71,12 +80,17 @@ export default function Contact() {
               fullWidth
               margin="normal"
               required
+              InputLabelProps={{
+                style: {
+                  color: 'white'
+                      }
+              }}
             />
             <Button variant="contained" type="submit">
               Send Message
             </Button>
       </form>
-        </div>
+        </div> 
       </div>
     </div>
   );
