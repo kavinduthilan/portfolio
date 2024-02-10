@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     row-gap: 20px;
-    justify-content: space-between;
 }
 
 .skills .container img{
