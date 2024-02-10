@@ -3,9 +3,9 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <div>
+    <div className='footer'>
           <hr id='hr'/>
-          <p id='para'>@ 2024 kavinduthilan. All Rights Reserved.</p>
+          <p id='para'>&copy; 2024 kavinduthilan. All Rights Reserved.</p>
     </div>
   )
 }

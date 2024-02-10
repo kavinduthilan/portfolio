@@ -1,13 +1,16 @@
 .skills .container{
-    margin: 50px 50px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     row-gap: 20px;
+    
 }
 
 .skills .container img{
-    width: 75%;
-    height: 75%;
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    margin: 30px; /* Adjust as needed */
 }
 
 
@@ -19,3 +22,9 @@
     
     
 }
+
+
+
+
+
+

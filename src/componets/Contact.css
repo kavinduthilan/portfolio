@@ -7,7 +7,6 @@
 
 }
 .container-1{
-    border: 2px solid black;
     padding: 5%;
 }
 
@@ -31,24 +30,8 @@
 
 
 .container-2{
-    border: 2px solid black;
-    margin-right: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
-}
-.container-2 input[type="text"], input[type="email"]{
-    margin-bottom: 10px;
-    width: 80%;
+    padding-right: 50px;
 }
 
-.container-2 input[type="text"], input[type="email"],textarea{
-    background-color: #ededed;
-}
-.container-2 input[type="submit"]{
-    background: transparent;
-    color: #00abf0;
-    border: 1px solid #00abf0;
-    padding: 5px;
-
-}

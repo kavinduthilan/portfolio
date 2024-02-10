@@ -4,6 +4,7 @@ import add from "./images/gps.png";
 import mail from "./images/email.png";
 import tele from "./images/phone.png";
 import emailjs from '@emailjs/browser';
+import {TextField,Button} from "@mui/material";
 
 export default function Contact() {
   const form = useRef();
@@ -41,14 +42,40 @@ export default function Contact() {
         </div>
         <div className="container-2">
           <form ref={form} onSubmit={sendEmail}>
-            <input type="text" placeholder="Your Name" name="name" />
-            <br />
-            <input type="email" placeholder="Your E-mail" name="email" />
-            <br />
-            <textarea cols={52} rows={10} placeholder="Message" name="message"></textarea>
-            <br />
-            <input type="submit" value="Send Message" />
-          </form>
+            <TextField
+              type="text"
+              label="Your Name"
+              placeholder="Your Name"
+              name="name"
+              fullWidth
+              margin="normal"
+              required
+              
+            />
+            <TextField
+              type="email"
+              label="Your E-mail"
+              placeholder="Your E-mail"
+              name="email"
+              fullWidth
+              margin="normal"
+              required
+              
+            />
+            <TextField
+              multiline
+              rows={10}
+              label="Message"
+              placeholder="Message"
+              name="message"
+              fullWidth
+              margin="normal"
+              required
+            />
+            <Button variant="contained" type="submit">
+              Send Message
+            </Button>
+      </form>
         </div>
       </div>
     </div>

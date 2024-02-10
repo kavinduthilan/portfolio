@@ -1,7 +1,10 @@
 .section{
     height: 700px;
     width: 100%;
-    
+    display: grid;
+    grid-template-columns: 60% 40%;
+    column-gap: auto;
+
     
 }
 h3{
@@ -93,3 +96,16 @@ h4{
 .im1, .im2{
     margin-right: 50px;
 }
+
+
+    
+
+
+.section .profile-pic img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin-top: 100px;
+  
+}
+
