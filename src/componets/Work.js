@@ -22,12 +22,13 @@ export default function Work() {
                             alt="work1"
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
-                                Card Title
+                            <Typography gutterBottom variant="h5" component="div" color="#081b29">
+                                Kingfisher Cafe
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                            <Typography variant="body2" color="text.primary">
+                                Designed and implemented a website to facilitate
+                                online orders, showcasing an intuitive user interface and
+                                seamless ordering process.
                             </Typography>
                             <Button variant="contained">Go</Button>
                         </CardContent>
