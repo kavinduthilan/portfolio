@@ -30,7 +30,7 @@ export default function Work() {
                 <div className="column">
                     <div className="content">
                     <img src={work1} alt="Lights"/>
-                    <div className='projectName'>Kingfisher Cafe</div>
+                    <div className='projectName'>My Portfolio</div>
                     <p>Lorem ipsum..</p>
                     </div>
                 </div>
