@@ -1,13 +1,14 @@
-.section{
+/* Base Styles */
+.section {
     height: 700px;
     width: 100%;
     display: grid;
     grid-template-columns: 55% 45%;
     column-gap: auto;
     margin-bottom: 100px;
-    
 }
-h3{
+
+h3 {
     font-size: 50px;
     text-align: left;
     padding-left: 100px;
@@ -16,15 +17,14 @@ h3{
     color: #00abf0; 
 }
 
-
-h2{
+h2 {
     font-size: 50px;
     text-align: left;
     padding-left: 100px;
     padding-top: 80px;
 }
 
-h4{
+h4 {
     font-size: 35px;
     text-align: left;
     padding-left: 100px;
@@ -32,19 +32,18 @@ h4{
     animation: typing 1.5s steps(10) infinite;
 }
 
-
-@keyframes typing{
-    100%{
+@keyframes typing {
+    100% {
         left: 100%;
         display: none;
     }
 }
 
-.cv{
+.cv {
     width: 100%;
 }
 
-.btn1{
+.btn1, .btn2 {
     padding: 5px;
     border-radius: 5px;
     background: transparent;
@@ -57,24 +56,13 @@ h4{
     margin-top: 40px;
     margin-left: 100px;
     margin-right: 50px;
-    
 }
 
-.btn2{
-    padding: 5px;
-    border-radius: 5px;
-    background: transparent;
-    background-color: #081b29;
-    border: 2px solid #00abf0;
-    font-size: 18px;
-    color: #00abf0;
-    font-weight: 500;
-    cursor: pointer;
-    margin-top: 40px;
-    
+.btn2 {
+    margin-left: 0; /* Adjust for alignment */
 }
 
-.btn1,.btn2:hover{
+.btn1:hover, .btn2:hover {
     background-color: #00abf0;
     color: #081b29;
 }
@@ -83,10 +71,9 @@ h4{
     margin-left: 100px;
     margin-top: 80px;
     width: 100%;
-    
 }
 
-.social a img{
+.social a img {
     width: 75px;
     height: 75px;
     background: none;
@@ -95,25 +82,64 @@ h4{
     background-color: #00abf0;
 }
 
-.social a img:hover{
+.social a img:hover {
     background-color: #ededed;
     border: 2px solid #ededed;
-    
 }
 
-.im1, .im2{
+.im1, .im2 {
     margin-right: 50px;
 }
 
-
-    
-
-
-.section .profile-pic img{
-  width: 90%;
-  height: 60%;
-  border-radius: 50%;
-  margin-top: 100px;
-  
+.section .profile-pic img {
+    width: 90%;
+    height: 60%;
+    border-radius: 50%;
+    margin-top: 100px;
 }
 
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .section {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .section-content, .profile-pic {
+        padding: 20px;
+        text-align: center;
+    }
+    h3, h2, h4 {
+        padding-left: 0;
+        font-size: 4vw; /* Adjust based on viewport width */
+    }
+    .social {
+        margin-left: 0;
+        text-align: center;
+    }
+    .social a img {
+        margin: 0 10px; /* Adjust spacing */
+    }
+    .btn1, .btn2 {
+        margin: 20px auto; /* Center buttons and adjust margin */
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    h3, h2, h4 {
+        font-size: 5vw;
+    }
+    .social a img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    h3, h2, h4 {
+        font-size: 6vw;
+    }
+    .btn1, .btn2 {
+        font-size: 16px;
+    }
+}

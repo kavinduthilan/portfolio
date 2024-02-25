@@ -17,7 +17,22 @@ export default function About() {
             learner and I am always willing to take on new opportunities to improve my
             skills.
           </p>
-        
+          <div className="row">
+            <div className="column">
+              <div className="content"> 
+                <div className='EdName'>Bachelor of Computer Science(BCS)</div>
+                <p>University of Ruhuna</p>
+                <p>2021-present</p>
+              </div>
+            </div>
+            <div className="column">
+              <div className="content"> 
+                <div className='EdName'>G.C.E A/L Examination</div>
+                <p>University of Ruhuna</p>
+                <p>2021-present</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
