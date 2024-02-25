@@ -2,9 +2,9 @@
     height: 700px;
     width: 100%;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 55% 45%;
     column-gap: auto;
-
+    margin-bottom: 100px;
     
 }
 h3{
@@ -40,6 +40,10 @@ h4{
     }
 }
 
+.cv{
+    width: 100%;
+}
+
 .btn1{
     padding: 5px;
     border-radius: 5px;
@@ -53,6 +57,7 @@ h4{
     margin-top: 40px;
     margin-left: 100px;
     margin-right: 50px;
+    
 }
 
 .btn2{
@@ -66,6 +71,7 @@ h4{
     font-weight: 500;
     cursor: pointer;
     margin-top: 40px;
+    
 }
 
 .btn1,.btn2:hover{
@@ -76,6 +82,8 @@ h4{
 .social {
     margin-left: 100px;
     margin-top: 80px;
+    width: 100%;
+    
 }
 
 .social a img{
@@ -102,8 +110,8 @@ h4{
 
 
 .section .profile-pic img{
-  width: 500px;
-  height: 500px;
+  width: 90%;
+  height: 60%;
   border-radius: 50%;
   margin-top: 100px;
   

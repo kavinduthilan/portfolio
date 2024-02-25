@@ -23,8 +23,11 @@ export default function Section() {
             }}
           />
         </h4>
-        <button className="btn1">Contact Me</button>
-        <button className="btn2">Download CV</button>
+        <div className="cv">
+          <button className="btn1">Contact Me</button>
+          <button className="btn2">Download CV</button>
+        </div>
+        
 
         <div className="social">
           <a href="https://www.google.com" rel="noreferrer" target="_blank">

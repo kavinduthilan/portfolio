@@ -22,6 +22,11 @@ export default function heading() {
           </Link>
         </li>
         <li>
+          <Link to="work" smooth={true} duration={-100}>
+            Works
+          </Link>
+        </li>
+        <li>
           <Link to="contact" smooth={true} duration={-100}>
             Contact
           </Link>

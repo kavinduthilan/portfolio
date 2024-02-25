@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
-import pic from "./images/CS.jpeg";
-import { Typography, List, ListItem, ListItemText } from "@mui/material";
+
 
 export default function About() {
   return (
