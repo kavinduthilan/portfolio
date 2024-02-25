@@ -5,6 +5,7 @@ import ig from "./images/instagram.png";
 import ln from "./images/linkedin.png";
 import Typewriter from "typewriter-effect";
 import pic from "./images/CS.jpeg";
+import myCV from "./files/kavindu thilan (2).pdf";
 
 export default function Section() {
   return (
@@ -25,7 +26,10 @@ export default function Section() {
         </h4>
         <div className="cv">
           <button className="btn1">Contact Me</button>
-          <button className="btn2">Download CV</button>
+          <a href={myCV} download="KavinduThilanCV.pdf">
+            <button className="btn2">Download CV</button>
+          </a>
+          
         </div>
         
 
