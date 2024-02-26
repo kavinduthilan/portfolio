@@ -11,3 +11,54 @@
     text-align: justify;
     margin-top: 0px;
 }
+
+.EdName{
+    padding: 10px;
+    font-size: 30px;
+    color: #ededed;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+}
+
+.about .content p{
+    color: #00adf0;
+    padding: 10px;
+    text-align: left;
+}
+
+.about .row {
+  margin: 50px 100px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.about .column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */
+.about .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.about .content {
+  background-color: #081b29;
+  border-radius: 10px;
+  border: 2px solid #00adf0;
+  height: 100%;
+}
+
+.about .content:hover{
+    border: 2px solid #ededed;
+}
+

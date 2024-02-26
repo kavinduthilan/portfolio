@@ -14,7 +14,8 @@
 .heading .navbar li{
     display: inline;
     padding-left: 50px;
-    color: whitesmoke;
-    font-weight: bold;
+    color: #ededed;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }

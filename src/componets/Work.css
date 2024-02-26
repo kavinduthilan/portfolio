@@ -12,7 +12,7 @@ h1 {
   color: #ededed;
 }
 
-.row {
+.works .row {
   margin: 50px 100px;
 }
 
@@ -23,44 +23,44 @@ h1 {
 }
 
 /* Create four equal columns that floats next to each other */
-.column {
+.works .column {
   float: left;
   width: 33.33%;
 }
 
 /* Clear floats after rows */
-.row:after {
+.works .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
 /* Content */
-.content {
+.works .content {
   background-color: #081b29;
   border-radius: 10px;
   border: 2px solid #00adf0;
   height: 100%;
 }
 
-.content:hover{
+.works .content:hover{
     border: 2px solid #ededed;
 }
 
-.content img {
+.works .content img {
   width: 100%;
   margin-bottom: 12px;
   border-radius: 10px 10px 0 0;
 }
 
-.content .projectName {
+.works .content .projectName {
   padding: 5px;
   font-size: 20px;
   color: #ededed;
   
 }
 
-.content p {
+.works .content p {
   padding: 5px 5px 0px 5px;
   font-size: smaller;
   text-align: justify;
