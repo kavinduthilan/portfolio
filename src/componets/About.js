@@ -20,16 +20,16 @@ export default function About() {
           <div className="row">
             <div className="column">
               <div className="content"> 
-                <div className='EdName'>Bachelor of Computer Science(BCS)</div>
+                <div className='EdName'>Bachelor of Computer Science (BCS)</div>
                 <p>University of Ruhuna</p>
-                <p>2021-present</p>
+                <p>2021-2024</p>
               </div>
             </div>
             <div className="column">
               <div className="content"> 
-                <div className='EdName'>G.C.E A/L Examination</div>
-                <p>University of Ruhuna</p>
-                <p>2021-present</p>
+                <div className='EdName'>G.C.E A/L Examination - 2019</div>
+                <p>C.W.W. Kannangara Central College, Matugama.</p>
+                <p>Combined  Maths-B Chemistry-B Physics-C</p>
               </div>
             </div>
           </div>
