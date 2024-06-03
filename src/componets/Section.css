@@ -1,4 +1,4 @@
-/* Base Styles */
+
 .section {
     height: 700px;
     width: 100%;
@@ -39,9 +39,7 @@ h4 {
     }
 }
 
-.cv {
-    width: 100%;
-}
+
 
 .btn1, .btn2 {
     padding: 5px;

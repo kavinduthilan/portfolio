@@ -8,6 +8,8 @@ import c from './skills/C.svg'
 import mysql from './skills/MySQL-Dark.svg'
 import java from './skills/Java-Dark.svg'
 import sass from './skills/Sass.svg'
+import github from './skills/Github-Dark.svg'
+import dotnet from './skills/DotNet.svg'
 
 
 export default function Skills  () {
@@ -22,7 +24,9 @@ export default function Skills  () {
                 <img src={c} alt='c'/>
                 <img src={java} alt='java'/>
                 <img src={mysql} alt='mysql'/>
-                <img src={sass} alt='sass'/>
+                <img src={sass} alt='sass' />
+                <img src={github} alt='github' />
+                <img src={dotnet} alt='dotnet' />
             </div>
         </div>
     )
