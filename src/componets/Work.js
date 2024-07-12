@@ -1,6 +1,7 @@
 import React from 'react';
 import './Work.css';
 import work1 from './images/work1.png';
+import work2 from './images/web.PNG';
 import { GitHub } from '@mui/icons-material';
 import IconButton from '@mui/material/IconButton';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
@@ -29,9 +30,15 @@ export default function Work() {
                 </div>
                 <div className="column">
                     <div className="content">
-                    <img src={work1} alt="Lights"/>
-                    <div className='projectName'>My Portfolio</div>
+                    <img src={work2} alt="Lights"/>
+                    <div className='projectName'>Food Order Application</div>
                     <p>Lorem ipsum..</p>
+                    <IconButton aria-label="github" color="primary">
+                        <GitHub />
+                    </IconButton>
+                    <IconButton aria-label="play" color="primary" fontSize="large">
+                        <LiveTvIcon />
+                    </IconButton>
                     </div>
                 </div>
                 <div className="column">
