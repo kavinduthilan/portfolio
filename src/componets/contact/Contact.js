@@ -1,10 +1,10 @@
-import React, { useRef} from "react";
+import React, { useRef } from "react";
 import "./Contact.css";
-import add from "./images/gps.png";
-import mail from "./images/email.png";
-import tele from "./images/phone.png";
-import emailjs from '@emailjs/browser';
-import {TextField,Button} from "@mui/material";
+import add from "../../images/gps.png";
+import mail from "../../images/email.png";
+import tele from "../../images/phone.png";
+import emailjs from "@emailjs/browser";
+import { TextField, Button } from "@mui/material";
 
 export default function Contact() {
   const form = useRef();
@@ -12,13 +12,22 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_9bqaxxw', 'template_4uw2i8e', form.current, 'B3jiIxXZLjXrRsilc')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_9bqaxxw",
+        "template_4uw2i8e",
+        form.current,
+        "B3jiIxXZLjXrRsilc"
+      )
+      .then(
+        (result) => {
           alert("Message Sent, We will get back to you shortly", result.text);
           //console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
   };
   return (
     <div className="contact" id="contact">
@@ -52,11 +61,11 @@ export default function Contact() {
               required
               InputLabelProps={{
                 style: {
-                  color: 'white'
-                      }
+                  color: "white",
+                },
               }}
             />
-            
+
             <TextField
               type="email"
               label="Your E-mail"
@@ -67,8 +76,8 @@ export default function Contact() {
               required
               InputLabelProps={{
                 style: {
-                  color: 'white'
-                      }
+                  color: "white",
+                },
               }}
             />
             <TextField
@@ -82,15 +91,15 @@ export default function Contact() {
               required
               InputLabelProps={{
                 style: {
-                  color: 'white'
-                      }
+                  color: "white",
+                },
               }}
             />
             <Button variant="contained" type="submit">
               Send Message
             </Button>
-      </form>
-        </div> 
+          </form>
+        </div>
       </div>
     </div>
   );
