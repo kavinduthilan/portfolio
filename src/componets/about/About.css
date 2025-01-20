@@ -1,7 +1,4 @@
 .about{
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 50px;
     margin: 50px 50px;
 }
 
@@ -24,7 +21,12 @@
 .about .content p{
     color: #00adf0;
     padding: 10px;
-    text-align: left;
+    text-align: center;
+}
+
+.content{
+  width: 500px;
+  text-align: center;
 }
 
 #edu{
@@ -32,21 +34,22 @@
   height: 50px;
 }
 
+.experience{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .about .row {
   margin: 50px 100px;
 }
 
 /* Add padding BETWEEN each column (if you want) */
-.row,
+/* .row,
 .row > .column {
   padding: 8px;
-}
+} */
 
-/* Create four equal columns that floats next to each other */
-.about .column {
-  float: left;
-  width: 50%;
-}
 
 /* Clear floats after rows */
 .about .row:after {

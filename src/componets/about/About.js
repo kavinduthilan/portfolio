@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import education from "../../images/mortarboard.png";
+import worker from "../../images/programmer.png";
 
 export default function About() {
   return (
@@ -17,13 +18,29 @@ export default function About() {
             working independently. I am a quick learner and I am always willing
             to take on new opportunities to improve my skills.
           </p>
-          <div className="row">
-            <div className="column">
-              <div className="content">
-                <img id="edu" src={education} alt="education" />
-                <div className="EdName">Bachelor of Computer Science (BCS)</div>
-                <p>University of Ruhuna</p>
-                <p>2021-2024</p>
+
+          <div className="experience">
+            <div className="row">
+              <div className="column">
+                <div className="content">
+                  <img id="edu" src={worker} alt="education" />
+                  <div className="EdName">Trainee Software Engineer</div>
+                  <p>Echonlabs (pvt) Ltd</p>
+                  <p>2024 July-2025 Jan</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="column">
+                <div className="content">
+                  <img id="edu" src={education} alt="education" />
+                  <div className="EdName">
+                    Bachelor of Computer Science (BCS)
+                  </div>
+                  <p>University of Ruhuna</p>
+                  <p>2021-2024</p>
+                </div>
               </div>
             </div>
           </div>

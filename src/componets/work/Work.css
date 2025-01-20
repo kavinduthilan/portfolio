@@ -1,9 +1,8 @@
-.works{
-    margin-top: 200px;
-    margin-bottom: 100px;
-    box-sizing: border-box;
-    max-width: 2000px;
-    margin: auto;
+.works {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+  max-width: 2000px;
 }
 
 h1 {
@@ -43,8 +42,8 @@ h1 {
   height: 100%;
 }
 
-.works .content:hover{
-    border: 2px solid #ededed;
+.works .content:hover {
+  border: 2px solid #ededed;
 }
 
 .works .content img {
@@ -57,7 +56,6 @@ h1 {
   padding: 5px;
   font-size: 20px;
   color: #ededed;
-  
 }
 
 .works .content p {
@@ -80,6 +78,3 @@ h1 {
     width: 100%;
   }
 }
-
-
-
